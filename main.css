@@ -14,8 +14,9 @@ footer .row {
 }
 
 header h1 {
-  font-weight: 700;
-  margin: 0;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 40px;
   color: #3b4858;
   font-family: Lato,sans-serif;
   text-transform: uppercase;
@@ -33,14 +34,17 @@ header p {
   margin: 0;
 }
 
+
+
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/ericleeportfolio.appspot.com/o/whiterock.jpg?alt=media&token=4d667daf-9633-4ec0-a391-eeade6d40195');
-  background-size: cover;
-  color: #ffffff;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/ericleeportfolio.appspot.com/o/cover.JPG?alt=media&token=f576c7ba-3d69-4f5a-bf58-87176f052633');
+  background-size: cover; 
+
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+
+  text-shadow: 2px 2px 0.75px #000000;
 }
 
 .jumbotron h2 {
@@ -51,12 +55,15 @@ header p {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   text-align: center;
+
+
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
 }
+
 
 section .row img {
   margin: 0 0 30px;
@@ -88,6 +95,7 @@ section .row img {
 
 .gallery-item {
   border: 3px solid #C0C0C0 ;
+  max-height: 350px;
 }
 
 footer {
