@@ -16,6 +16,10 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  color: #3b4858;
+  font-family: Lato,sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 header nav {
@@ -31,7 +35,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/ericleeportfolio.appspot.com/o/whiterock.jpg?alt=media&token=4d667daf-9633-4ec0-a391-eeade6d40195');
   background-size: cover;
   color: #ffffff;
   height: 500px;
