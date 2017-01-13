@@ -16,7 +16,8 @@ footer .row {
 header h1 {
   font-weight: 600;
   margin-top: 70px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+
   color: #3b4858;
   font-family: Lato,sans-serif;
   text-transform: uppercase;
@@ -34,12 +35,33 @@ header p {
   margin: 0;
 }
 
+h2 {
+  font-weight: 400;
+  padding: 30px;
+  margin-bottom: 50px;
+  color: #3b4858;
+  font-family: crimson,sans-serif;
+  text-align: center;
+
+}
+
+h4 {
+  text-align: center;
+}
+
+
 a {
   color: #3b4858;
   font-family: Lato,sans-serif;
 }
 
 
+  .nav-tabs{
+      margin: 0 auto;
+      display: table;
+      text-align: left;
+
+  }
 
 .jumbotron {
   display: flex;
@@ -101,6 +123,14 @@ section .row img {
 .gallery-item {
   border: 3px solid #C0C0C0 ;
   max-height: 350px;
+}
+
+.profile-pic {
+  border: 1px solid #C0C0C0 ;
+}
+
+.signature {
+  max-width: 150px;
 }
 
 footer {
